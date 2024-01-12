@@ -1,0 +1,131 @@
+/*Esi osa*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #4285f4;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#pealeht{
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Tabel*/
+#dataTable{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+th,td{
+    border: 1px solid #ccc;
+    padding: 10px 60px;
+    text-align: left;
+    width: 100%;
+}
+th{
+    background-color: #4285f4;
+    color: white;
+}
+/*Form*/
+form{
+    margin-top: 20px;
+    max-width: 300px;
+}
+input[type="text"],input[type="submit"],input[type="button"],input[type="password"]{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"],input[type="button"]{
+    cursor: pointer;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+}
+#eesnimisort,#perenimisort,#maakondsort{
+    background-color: #4285f4;
+    color: white;
+}
+
+#kustutamiseks,#muutmiseleks{
+    background-color: #4285f4;
+    padding: 5px;
+    color: white;
+}
+a:hover{
+    color: #80bfff;
+}
+#modal_log{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal_reg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window{
+    position: relative;
+    background-color: white;
+    padding: 4em 2em;
+}
+
+.modal__close{
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
+#modal:not(:target){
+    visibility: hidden;
+    opacity: 0;
+}
